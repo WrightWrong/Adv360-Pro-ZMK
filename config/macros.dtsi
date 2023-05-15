@@ -1,3 +1,9 @@
+macro_yahoo: macro_yahoo{
+compatible = "zmk,behavior-macro";
+label = "macro_yahoo";
+#binding-cells = <0>;
+bindings = <&kp M>, <&kp M>, <&kp M>, <&kp I>, <&kp C>, <&kp K>, <&kp E>, <&kp Y>, <&kp Y>, <&kp Y>, <&kp AT_SIGN>, <&kp Y>, <&kp A>, <&kp H>, <&kp O>, <&kp O>, <&kp PERIOD>, <&kp C>, <&kp O>, <&kp M>;
+};
 macro_sfusd_email: macro_sfusd_email{
 compatible = "zmk,behavior-macro";
 label = "macro_sfusd_email";
