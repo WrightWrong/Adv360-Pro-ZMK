@@ -1,9 +1,3 @@
-macro_test1: macro_test1{
-compatible = "zmk,behavior-macro";
-label = "macro_test1";
-#binding-cells = <0>;
-bindings = <&kp LS(A)>, <&kp LS(B)>, <&kp LS(C)>, <&kp ESC>, <&kp E>, <&kp F>, <&kp G>, <&kp RETURN>;
-};
 macro_yubikeyend: macro_yubikeyend{
 compatible = "zmk,behavior-macro";
 label = "macro_yubikeyend";
