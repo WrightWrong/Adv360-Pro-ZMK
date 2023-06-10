@@ -1,3 +1,9 @@
+macro_gmail: macro_gmail{
+compatible = "zmk,behavior-macro";
+label = "macro_gmail";
+#binding-cells = <0>;
+bindings = <&kp LS(M)>, <&kp M>, <&kp M>, <&kp I>, <&kp C>, <&kp K>, <&kp E>, <&kp Y>, <&kp Y>, <&kp Y>, <&kp AT_SIGN>, <&kp G>, <&kp M>, <&kp A>, <&kp I>, <&kp L>, <&kp PERIOD>, <&kp C>, <&kp O>, <&kp M>;
+};
 macro_reg_plus: macro_reg_plus{
 compatible = "zmk,behavior-macro";
 label = "macro_reg_plus";

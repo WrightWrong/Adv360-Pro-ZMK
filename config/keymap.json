@@ -24,7 +24,7 @@
     ], [
        "&kp F1",             "&kp F2",          "&kp F3",             "&kp F4", "&kp F5", "&kp F6",                  "&tog 1",                                                                         "&mo 3",       "&kp F7", "&kp F8",      "&kp F9", "&kp F10", "&kp F11", "&kp F12",
        "&trans", "&macro_sfusd_un_pw", "&macro_sfusd_pw", "&macro_sfusd_email", "&trans", "&trans",               "&kp RC(C)",                                                                         "&none", "&macro_yahoo", "&trans",      "&trans",  "&trans",  "&trans",  "&trans",
-       "&trans",             "&trans",     "&macro_seis",      "&macro_123456", "&trans", "&trans",           "&kp RC(LS(V))", "&trans", "&macro_yubikeyend",  "&none",  "&none", "&trans", "&trans",  "&none",       "&trans", "&trans", "&macro_kill",  "&trans",  "&trans",  "&trans",
+       "&trans",             "&trans",     "&macro_seis",      "&macro_123456", "&trans",  "&none",           "&kp RC(LS(V))", "&trans", "&macro_yubikeyend",  "&none",  "&none", "&trans", "&trans",  "&none",       "&trans", "&trans", "&macro_kill",  "&trans",  "&trans",  "&trans",
        "&trans",         "&macro_zxc",          "&trans",             "&trans", "&trans", "&trans",                   "&none",  "&none",            "&trans",  "&none",  "&none", "&trans",  "&none",  "&none",       "&trans", "&trans",      "&trans",  "&trans",  "&trans",  "&trans",
        "&trans",             "&trans",          "&trans",             "&trans", "&trans",                            "&trans", "&trans",    "&macro_yubikey",                     "&trans", "&trans", "&trans",                 "&trans",      "&trans",  "&trans",  "&trans",  "&trans"
     ], [
