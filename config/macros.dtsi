@@ -2,13 +2,13 @@ macro_pm: macro_pm{
 compatible = "zmk,behavior-macro";
 label = "macro_pm";
 #binding-cells = <0>;
-bindings = <&kp LS(A)>, <&kp LS(M)>;
+bindings = <&kp LS(P)>, <&kp LS(M)>;
 };
 macro_am: macro_am{
 compatible = "zmk,behavior-macro";
 label = "macro_am";
 #binding-cells = <0>;
-bindings = <&kp LS>, <&kp LS(M)>;
+bindings = <&kp LS(A)>, <&kp LS(M)>;
 };
 macro_gmail: macro_gmail{
 compatible = "zmk,behavior-macro";
