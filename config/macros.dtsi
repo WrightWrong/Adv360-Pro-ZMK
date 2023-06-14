@@ -1,3 +1,9 @@
+macro_mickey_manuel: macro_mickey_manuel{
+compatible = "zmk,behavior-macro";
+label = "macro_mickey_manuel";
+#binding-cells = <0>;
+bindings = <&kp LS(M)>, <&kp I>, <&kp C>, <&kp K>, <&kp E>, <&kp Y>, <&kp SPACE>, <&kp LS(M)>, <&kp A>, <&kp A>, <&kp N>, <&kp U>, <&kp E>, <&kp L>;
+};
 macro_phone#: macro_phone#{
 compatible = "zmk,behavior-macro";
 label = "macro_phone#";
