@@ -1,3 +1,9 @@
+macro_pi_ip: macro_pi_ip{
+compatible = "zmk,behavior-macro";
+label = "macro_pi_ip";
+#binding-cells = <0>;
+bindings = <&kp NUMBER_1>, <&kp NUMBER_9>, <&kp NUMBER_2>, <&kp DOT>, <&kp NUMBER_1>, <&kp NUMBER_6>, <&kp NUMBER_2>, <&kp DOT>, <&kp NUMBER_0>, <&kp DOT>, <&kp NUMBER_1>, <&kp NUMBER_0>, <&kp NUMBER_6>;
+};
 macro_123: macro_123{
 compatible = "zmk,behavior-macro";
 label = "macro_123";
@@ -9,12 +15,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_schedule";
 #binding-cells = <0>;
 bindings = <&kp S>, <&kp C>, <&kp H>, <&kp E>, <&kp D>, <&kp U>, <&kp L>, <&kp E>;
-};
-macro_pi-ip: macro_pi-ip{
-compatible = "zmk,behavior-macro";
-label = "macro_pi-ip";
-#binding-cells = <0>;
-bindings = <&kp NUMBER_1>, <&kp NUMBER_9>, <&kp NUMBER_2>, <&kp DOT>, <&kp NUMBER_1>, <&kp NUMBER_6>, <&kp NUMBER_8>, <&kp DOT>, <&kp NUMBER_0>, <&kp DOT>, <&kp NUMBER_1>, <&kp NUMBER_0>, <&kp NUMBER_6>, <&kp RETURN>;
 };
 macro_mickey_manuel: macro_mickey_manuel{
 compatible = "zmk,behavior-macro";
