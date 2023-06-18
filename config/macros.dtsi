@@ -1,3 +1,9 @@
+macro_phone_number: macro_phone_number{
+compatible = "zmk,behavior-macro";
+label = "macro_phone_number";
+#binding-cells = <0>;
+bindings = <&kp LEFT_PARENTHESIS>, <&kp NUMBER_4>, <&kp NUMBER_1>, <&kp NUMBER_5>, <&kp RIGHT_PARENTHESIS>, <&kp NUMBER_5>, <&kp NUMBER_3>, <&kp NUMBER_3>, <&kp NUMBER_7>, <&kp NUMBER_7>, <&kp NUMBER_9>, <&kp NUMBER_2>;
+};
 macro_pi_ip: macro_pi_ip{
 compatible = "zmk,behavior-macro";
 label = "macro_pi_ip";
@@ -21,12 +27,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_mickey_manuel";
 #binding-cells = <0>;
 bindings = <&kp LS(M)>, <&kp I>, <&kp C>, <&kp K>, <&kp E>, <&kp Y>, <&kp SPACE>, <&kp LS(M)>, <&kp A>, <&kp A>, <&kp N>, <&kp U>, <&kp E>, <&kp L>;
-};
-macro_phone#: macro_phone#{
-compatible = "zmk,behavior-macro";
-label = "macro_phone#";
-#binding-cells = <0>;
-bindings = <&kp LEFT_PARENTHESIS>, <&kp N4>, <&kp N1>, <&kp N5>, <&kp RIGHT_PARENTHESIS>, <&kp N5>, <&kp N3>, <&kp N3>, <&kp MINUS>, <&kp N7>, <&kp N7>, <&kp N9>, <&kp N2>;
 };
 macro_pm: macro_pm{
 compatible = "zmk,behavior-macro";
