@@ -1,3 +1,9 @@
+macro_zz: macro_zz{
+compatible = "zmk,behavior-macro";
+label = "macro_zz";
+#binding-cells = <0>;
+bindings = <&kp LS(Z)>, <&kp LS(Z)>;
+};
 macro_phone_number: macro_phone_number{
 compatible = "zmk,behavior-macro";
 label = "macro_phone_number";
