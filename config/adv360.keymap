@@ -60,7 +60,7 @@
         layer_fn {
             bindings = <
     &kp F1              &kp F2           &kp F3              &kp F4  &kp F5        &kp F6                   &tog 1                                                              &mo 3        &kp F7                &kp F8       &kp F9  &kp F10       &kp F11  &kp F12
-    &trans  &macro_sfusd_un_pw  &macro_sfusd_pw  &macro_sfusd_email  &trans    &macro_123                &kp RC(C)                                                              &none  &macro_yahoo                &trans       &trans   &trans  &macro_pi_ip   &trans
+    &trans  &macro_sfusd_un_pw  &macro_sfusd_pw  &macro_sfusd_email  &trans    &macro_123                &kp RC(C)                                                             &tog 4  &macro_yahoo                &trans       &trans   &trans  &macro_pi_ip   &trans
     &trans              &trans      &macro_seis       &macro_123456  &trans  &macro_gmail            &sk LS(LC(V))  &trans  &macro_yubikeyend   &none   &none  &trans  &trans   &none        &trans                &trans  &macro_kill   &trans        &trans   &trans
  &macro_zz          &macro_zxc           &trans              &trans  &trans        &trans                    &none   &none             &trans   &none   &none  &trans   &none   &none        &trans  &macro_mickey_manuel       &trans   &trans        &trans   &trans
     &trans              &trans           &trans              &trans  &trans                                 &trans  &trans     &macro_yubikey                  &trans  &trans  &trans                              &trans       &trans   &trans        &trans   &trans
@@ -74,6 +74,16 @@
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none   &none   &none  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                             &none       &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC                                 &rgb_ug RGB_TOG  &bl BL_TOG   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &none         &none   &none
+            >;
+        };
+
+        layer_PC_layout {
+            bindings = <
+      &kp EQUAL     &kp N1  &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                    &none                                                                                  &none  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none   &none
+        &kp TAB      &kp Q         &kp W           &kp E            &kp R         &kp T                    &none                                                                                  &none         &none         &none         &none         &none   &none   &none
+     &kp ESCAPE      &kp A         &kp S           &kp D            &kp F         &kp G                    &none   &kp LCTRL  &kp LEFT_ALT  &trans  &trans  &kp RIGHT_GUI  &kp RIGHT_CONTROL      &none         &none         &none         &none         &none   &none   &none
+ &kp LEFT_SHIFT      &kp Z         &kp X           &kp C            &kp V         &kp B                   &trans      &trans      &kp HOME  &trans  &trans    &kp PAGE_UP             &trans     &trans         &none         &none         &none         &none   &none   &none
+          &none  &kp TILDE  &kp CAPSLOCK  &kp LEFT_ARROW  &kp RIGHT_ARROW                          &kp BACKSPACE  &kp DELETE       &kp END                  &kp PAGE_DOWN          &kp ENTER  &kp SPACE                       &none         &none         &none   &none   &none
             >;
         };
 
