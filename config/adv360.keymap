@@ -60,8 +60,8 @@
         layer_fn {
             bindings = <
     &kp F1              &kp F2           &kp F3              &kp F4  &kp F5        &kp F6                   &tog 1                                                              &mo 3        &kp F7                &kp F8       &kp F9  &kp F10       &kp F11  &kp F12
-    &trans  &macro_sfusd_un_pw  &macro_sfusd_pw  &macro_sfusd_email  &trans    &macro_123                &kp RC(C)                                                             &tog 4  &macro_yahoo                &trans       &trans   &trans  &macro_pi_ip   &trans
-    &trans              &trans      &macro_seis       &macro_123456  &trans  &macro_gmail            &sk LS(LC(V))  &trans  &macro_yubikeyend   &none   &none  &trans  &trans  &tog 0        &trans                &trans  &macro_kill   &trans        &trans   &trans
+    &trans  &macro_sfusd_un_pw  &macro_sfusd_pw  &macro_sfusd_email  &trans    &macro_123                &kp RC(C)                                                              &to 4  &macro_yahoo                &trans       &trans   &trans  &macro_pi_ip   &trans
+    &trans              &trans      &macro_seis       &macro_123456  &trans  &macro_gmail            &sk LS(LC(V))  &trans  &macro_yubikeyend   &none   &none  &trans  &trans   &to 0        &trans                &trans  &macro_kill   &trans        &trans   &trans
  &macro_zz          &macro_zxc           &trans              &trans  &trans        &trans                    &none   &none             &trans   &none   &none  &trans   &none   &none        &trans  &macro_mickey_manuel       &trans   &trans        &trans   &trans
     &trans              &trans           &trans              &trans  &trans                                 &trans  &trans     &macro_yubikey                  &trans  &trans  &trans                              &trans       &trans   &trans        &trans   &trans
             >;
@@ -80,8 +80,8 @@
         layer_PC_layout {
             bindings = <
       &kp EQUAL     &kp N1  &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                   &tog 1                                                                                       &mo 3  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0         &kp MINUS
-        &kp TAB      &kp Q         &kp W           &kp E            &kp R         &kp T                &kp LC(C)                                                                                      &tog 0         &kp Y         &kp U           &kp I             &kp O              &kp P     &kp BACKSLASH
-     &kp ESCAPE      &kp A         &kp S           &kp D            &kp F         &kp G            &kp LS(LC(V))   &kp LCTRL       &kp LEFT_ALT  &trans  &trans  &kp RIGHT_GUI  &kp RIGHT_CONTROL      &none         &kp H         &kp J           &kp K             &kp L      &kp SEMICOLON  &kp SINGLE_QUOTE
+        &kp TAB      &kp Q         &kp W           &kp E            &kp R         &kp T                &kp LC(C)                                                                                       &none         &kp Y         &kp U           &kp I             &kp O              &kp P     &kp BACKSLASH
+     &kp ESCAPE      &kp A         &kp S           &kp D            &kp F         &kp G            &kp LS(LC(V))   &kp LCTRL       &kp LEFT_ALT  &trans  &trans  &kp RIGHT_GUI  &kp RIGHT_CONTROL      &to 0         &kp H         &kp J           &kp K             &kp L      &kp SEMICOLON  &kp SINGLE_QUOTE
  &kp LEFT_SHIFT      &kp Z         &kp X           &kp C            &kp V         &kp B                   &trans      &trans  &kp LS(BACKSPACE)  &trans  &trans        &kp TAB             &trans     &trans         &kp N         &kp M       &kp COMMA        &kp PERIOD          &kp SLASH   &kp RIGHT_SHIFT
           &mo 2  &kp TILDE  &kp CAPSLOCK  &kp LEFT_ARROW  &kp RIGHT_ARROW                          &kp BACKSPACE  &kp DELETE       &kp LEFT_GUI                  &kp RIGHT_ALT          &kp ENTER  &kp SPACE                &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET             &mo 2
             >;
