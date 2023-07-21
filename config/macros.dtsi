@@ -2,7 +2,7 @@ macro_enter_alacrity: macro_enter_alacrity{
 compatible = "zmk,behavior-macro";
 label = "macro_enter_alacrity";
 #binding-cells = <0>;
-bindings = <&kp RG(ENTER)>, <&kp N>, <&kp V>, <&kp I>, <&kp M>, <&kp ENTER>, <&kp SPACE>, <&kp W>, <&kp W>;
+bindings = <&kp RG(ENTER)>;
 };
 macro_rightspel_check: macro_rightspel_check{
 compatible = "zmk,behavior-macro";
