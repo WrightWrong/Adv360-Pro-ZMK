@@ -1,21 +1,3 @@
-macro_enter_alacrity: macro_enter_alacrity{
-compatible = "zmk,behavior-macro";
-label = "macro_enter_alacrity";
-#binding-cells = <0>;
-bindings = <&kp RG(ENTER)>;
-};
-macro_rightspel_check: macro_rightspel_check{
-compatible = "zmk,behavior-macro";
-label = "macro_rightspel_check";
-#binding-cells = <0>;
-bindings = <&kp RIGHT_BRACKET>, <&kp S>;
-};
-macro_leftspell_check: macro_leftspell_check{
-compatible = "zmk,behavior-macro";
-label = "macro_leftspell_check";
-#binding-cells = <0>;
-bindings = <&kp LEFT_BRACKET>, <&kp S>;
-};
 macro_zz: macro_zz{
 compatible = "zmk,behavior-macro";
 label = "macro_zz";
@@ -172,3 +154,17 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+macro_pacman_up: macro_pacman_up{
+compatible = "zmk,behavior-macro";
+label = "macro_pacman_up";
+#binding-cells = <0>;
+bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>,  <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)> <&kp Y>, <&kp Y>, <&kp U> ;
+};
+macro_pacman_up: macro_pacman_app{
+compatible = "zmk,behavior-macro";
+label = "macro_pacman_app";
+#binding-cells = <0>;
+bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>,  <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)>;
+};
+
+
