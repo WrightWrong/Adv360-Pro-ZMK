@@ -160,11 +160,11 @@ label = "macro_pacman_up";
 #binding-cells = <0>;
 bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>,  <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)> <&kp Y>, <&kp Y>, <&kp U> ;
 };
-macro_pacman_up: macro_pacman_app{
+macro_pacman_app: macro_pacman_app{
 compatible = "zmk,behavior-macro";
 label = "macro_pacman_app";
 #binding-cells = <0>;
-bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>,  <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)>;
+bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>,  <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)>, <&kp SPACE>;
 };
 
 
