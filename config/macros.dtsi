@@ -1,15 +1,3 @@
-macro_pac_up: macro_pac_up{
-compatible = "zmk,behavior-macro";
-label = "macro_pac_up";
-#binding-cells = <0>;
-bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)>, <&kp Y>, <&kp Y>, <&kp U>;
-};
-macro_pac_app: macro_pac_app{
-compatible = "zmk,behavior-macro";
-label = "macro_pac_app";
-#binding-cells = <0>;
-bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)>, <&kp SPACE>;
-};
 macro_zz: macro_zz{
 compatible = "zmk,behavior-macro";
 label = "macro_zz";
@@ -165,4 +153,16 @@ compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+};
+macro_pac_up: macro_pac_up{
+compatible = "zmk,behavior-macro";
+label = "macro_pac_up";
+#binding-cells = <0>;
+bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)>, <&kp Y>, <&kp Y>, <&kp U>;
+};
+macro_pac_app: macro_pac_app{
+compatible = "zmk,behavior-macro";
+label = "macro_pac_app";
+#binding-cells = <0>;
+bindings = <&kp S>, <&kp U>, <&kp D>, <&kp O>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp C>, <&kp M>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp MINUS>, <&kp LS(S)>, <&kp SPACE>;
 };
