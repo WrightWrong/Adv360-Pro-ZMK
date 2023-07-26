@@ -48,6 +48,24 @@
             #binding-cells = <0>;
             bindings = <&none &kp N7 &kp LS(D) &kp LS(G) &kp LS(X) &kp COMMA &kp SEMI &kp N6 &kp LS(Q) &kp DLLR &kp P &kp LS(Q) &kp P &kp LS(D) &kp LS(V) &kp LS(C) &kp N5 &kp LS(M) &kp J &kp Q &kp N9 &kp U &kp RBKT &kp LS(Z) &kp LS(P) &kp M &kp LS(T) &kp F &kp B &kp COMMA &kp LS(L) &kp CARET &kp N2 &kp N5 &kp N9 &kp U &kp LS(J) &kp EQUAL &kp LBRC>;
         };
+        macro_gmail: macro_gmail {
+            compatible = "zmk,behavior-macro";
+            label = "MACRO_GMAIL";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(M) &kp M &kp M &kp I &kp C &kp K &kp E &kp Y &kp Y &kp Y &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+        };
+        macro_yahoo: macro_yahoo {
+            compatible = "zmk,behavior-macro";
+            label = "MACRO_YAHOO";
+            #binding-cells = <0>;
+            bindings = <&none &kp M &kp M &kp M &kp I &kp C &kp K &kp E &kp Y &kp Y &kp Y &kp AT &kp Y &kp A &kp H &kp O &kp O &kp DOT &kp C &kp O &kp M>;
+        };
+        macro_seis_pw: macro_seis_pw {
+            compatible = "zmk,behavior-macro";
+            label = "MACRO_SEIS_PW";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(M) &kp A &kp N &kp U &kp E &kp L &kp M &kp I &kp C &kp RETURN>;
+        };
     };
 
     keymap {
